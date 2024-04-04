@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lifehacks Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Lifehacks</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#kitchen">Kitchen</a></li>
+        <li><a href="#organization">Organization</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#health">Health</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to Lifehacks</h2>
+      <p>Find useful solutions to everyday problems!</p>
+    </section>
+
+    <section id="kitchen">
+      <h2>Kitchen Hacks</h2>
+      <div class="lifehack">
+        <h3>Quick Garlic Peeling</h3>
+        <p>To easily peel garlic cloves, place them in a small bowl and shake vigorously for a few seconds.</p>
+        <img src="garlic-peeling.jpg" alt="Garlic Peeling">
+      </div>
+      <!-- Add more kitchen hacks here -->
+    </section>
+
+    <section id="organization">
+      <h2>Organization Hacks</h2>
+      <div class="lifehack">
+        <h3>Drawer Dividers</h3>
+        <p>Use cardboard or plastic dividers to keep your drawers organized and items separated.</p>
+        <img src="drawer-dividers.jpg" alt="Drawer Dividers">
+      </div>
+      <!-- Add more organization hacks here -->
+    </section>
+
+    <section id="technology">
+      <h2>Technology Hacks</h2>
+      <div class="lifehack">
+        <h3>Phone Stand</h3>
+        <p>Make a phone stand using a paperclip by bending it into a shape that holds your phone securely.</p>
+        <img src="phone-stand.jpg" alt="Phone Stand">
+      </div>
+      <!-- Add more technology hacks here -->
+    </section>
+
+    <section id="health">
+      <h2>Health Hacks</h2>
+      <div class="lifehack">
+        <h3>Posture Improvement</h3>
+        <p>Place a small pillow behind your lower back when sitting to maintain good posture and reduce strain.</p>
+        <img src="posture-improvement.jpg" alt="Posture Improvement">
+      </div>
+      <!-- Add more health hacks here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Lifehacks Website</p>
+  </footer>
+</body>
+</html>
